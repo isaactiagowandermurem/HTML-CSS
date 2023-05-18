@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumenta ou diminuir o tamanho do seu navegador </p>
+    <picture>
+        <source media="(max-width: 860px )" srcset="imagens/1.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/2.png" type="image/png">
+        <img src="imagens/3.png" alt="Imagem flexivel">
+
+
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>vamos apreder a reproduzir audios em HTML5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="media/guanacast-33.mp3" type="audio/mpeg">
+        <source src="media/WhatsApp Audio 2023-03-08 at 09.57.38.aac" type="audio/wav">
+        <source src="" type="">
+        <p>Infelizmente seu navegador nao consegui reproduzir audio. <a href="media/guanacast-33.mp3">Clique aqui para baixa o mp3</a> </p>
+
+    </audio>
+     
+</body>
+</html>
