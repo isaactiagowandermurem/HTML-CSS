@@ -62,9 +62,49 @@ main #principal {
 }
 
 main #contenier{
+    position: relative;
     background-image: url("/DESAFIOS/d012/imagens/background001.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+}
+
+main #conteudo{
+    position: absolute;
+    background-image: linear-gradient(to bottom , #17250D,transparent);
+    padding: 20px;
+   top: 20%;
+    color: white;
+    
+    width: 180px;
+}
+
+main #contenier2{
+    position: relative;
+    background-image: url("/DESAFIOS/d012/imagens/background002.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
+}
+
+main #conteudo2{
+    position: absolute;
+    background-image: linear-gradient(to bottom , black,transparent);
+    padding: 20px;
+   top: 20%;
+   left: 2%;
+    color: white;
+    
+    width: 180px;
+
+}
+footer{
+    font-family: var(--font-destaque);
+    color: white ;
+    background-color: black;
+    text-align: center;
+    padding: 3px;
 }
