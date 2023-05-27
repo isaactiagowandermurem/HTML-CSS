@@ -25,81 +25,106 @@
 }
 
 
-body{
-
+html, body{
+    min-height: 100vh;
     font-family: var(--font-padrao);
 }
 
 header{
     background-color: black;
     padding: 10px;
-    height: 100px;
+   
     text-align: center;
     margin-bottom: 20px;
 }
 
 header h1{
     color: white;
+    padding-top: 50px;
     font-family: var(--font-destaque);
     margin-bottom: 10px;
-    font-size: 4em;
+    font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.91);
+    padding-bottom: 50px;
 }
 
 header  a > strong{
     color: white;
 }
-
-main #principal {
-    font-family: var(--font-versos);
-    line-height: 1.5em;
-    padding: 20px;
-    background-color: white;
+header a:hover{
+   text-decoration: underline;
 }
 
-main #contenier{
+ #principal {
+    font-family: var(--font-versos);
+    
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+ #contenier{
     position: relative;
     background-image: url("/DESAFIOS/d012/imagens/background001.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 300px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.376);
+
+   
 }
 
-main #conteudo{
+ #conteudo{
     position: absolute;
-    background-image: linear-gradient(to bottom , #17250D,transparent);
+   background-color: rgba(0, 0, 0, 0.193);
     padding: 20px;
    top: 20%;
     color: white;
-    
-    width: 180px;
+    text-shadow: 1px 1px 0px black;
+    width: 400px;
 }
 
-main #contenier2{
+ #contenier2{
     position: relative;
     background-image: url("/DESAFIOS/d012/imagens/background002.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 300px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.376);
 
 }
 
-main #conteudo2{
+ #conteudo2{
     position: absolute;
-    background-image: linear-gradient(to bottom , black,transparent);
+    background-color: rgba(0, 0, 0, 0.293);
     padding: 20px;
    top: 20%;
    left: 2%;
     color: white;
-    
-    width: 180px;
+    text-shadow: 1px 1px 0px black;
+    width: 400px;
 
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    
+    
+}
+section p{
+    padding-bottom: 1em;
 }
 footer{
     font-family: var(--font-destaque);
