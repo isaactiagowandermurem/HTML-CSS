@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead{
+            border: 1px solid black;
+        }
+
+        tbody{
+            border: 1px solid black;
+        }
+
+        td , th {
+            border:1px solid black ;
+            padding: 10px;
+        }
+        caption{
+            position: sticky;
+            border: 1px solid black;
+            font-size: 1.5em;
+            font-weight: bolder;
+            background-color: lightcyan;
+            top: -1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de tabela</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup"  colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatris Souza</td>
+                <td>Hulk</td>
+                <td>inception</td>
+                <td>Batmam</td>
+            </tr>
+            <tr>
+                <td>Claudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocaveis</td>
+                <td>Amnesia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourença</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangel</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam quasi repellat quidem a totam laborum nostrum deserunt tenetur! Eligendi voluptates dolore nemo ea suscipit illum voluptate esse rem modi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui officiis deserunt numquam necessitatibus aspernatur. Recusandae doloremque libero distinctio autem ex similique, incidunt animi accusantium quibusdam necessitatibus aperiam placeat unde soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa ullam placeat laudantium illum voluptas pariatur iure eligendi sed optio, saepe nobis vitae voluptatum fuga minima eaque ab quod sint.</p>
+
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam quasi repellat quidem a totam laborum nostrum deserunt tenetur! Eligendi voluptates dolore nemo ea suscipit illum voluptate esse rem modi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui officiis deserunt numquam necessitatibus aspernatur. Recusandae doloremque libero distinctio autem ex similique, incidunt animi accusantium quibusdam necessitatibus aperiam placeat unde soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa ullam placeat laudantium illum voluptas pariatur iure eligendi sed optio, saepe nobis vitae voluptatum fuga minima eaque ab quod sint.</p>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam quasi repellat quidem a totam laborum nostrum deserunt tenetur! Eligendi voluptates dolore nemo ea suscipit illum voluptate esse rem modi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui officiis deserunt numquam necessitatibus aspernatur. Recusandae doloremque libero distinctio autem ex similique, incidunt animi accusantium quibusdam necessitatibus aperiam placeat unde soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa ullam placeat laudantium illum voluptas pariatur iure eligendi sed optio, saepe nobis vitae voluptatum fuga minima eaque ab quod sint.</p>
+
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam quasi repellat quidem a totam laborum nostrum deserunt tenetur! Eligendi voluptates dolore nemo ea suscipit illum voluptate esse rem modi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui officiis deserunt numquam necessitatibus aspernatur. Recusandae doloremque libero distinctio autem ex similique, incidunt animi accusantium quibusdam necessitatibus aperiam placeat unde soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa ullam placeat laudantium illum voluptas pariatur iure eligendi sed optio, saepe nobis vitae voluptatum fuga minima eaque ab quod sint.</p>
+    
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam quasi repellat quidem a totam laborum nostrum deserunt tenetur! Eligendi voluptates dolore nemo ea suscipit illum voluptate esse rem modi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui officiis deserunt numquam necessitatibus aspernatur. Recusandae doloremque libero distinctio autem ex similique, incidunt animi accusantium quibusdam necessitatibus aperiam placeat unde soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa ullam placeat laudantium illum voluptas pariatur iure eligendi sed optio, saepe nobis vitae voluptatum fuga minima eaque ab quod sint.</p>
+    
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam quasi repellat quidem a totam laborum nostrum deserunt tenetur! Eligendi voluptates dolore nemo ea suscipit illum voluptate esse rem modi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui officiis deserunt numquam necessitatibus aspernatur. Recusandae doloremque libero distinctio autem ex similique, incidunt animi accusantium quibusdam necessitatibus aperiam placeat unde soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa ullam placeat laudantium illum voluptas pariatur iure eligendi sed optio, saepe nobis vitae voluptatum fuga minima eaque ab quod sint.</p>
+    
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam quasi repellat quidem a totam laborum nostrum deserunt tenetur! Eligendi voluptates dolore nemo ea suscipit illum voluptate esse rem modi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui officiis deserunt numquam necessitatibus aspernatur. Recusandae doloremque libero distinctio autem ex similique, incidunt animi accusantium quibusdam necessitatibus aperiam placeat unde soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa ullam placeat laudantium illum voluptas pariatur iure eligendi sed optio, saepe nobis vitae voluptatum fuga minima eaque ab quod sint.</p>
+    
+
+    
+    
+    
+</body>
+</html>
